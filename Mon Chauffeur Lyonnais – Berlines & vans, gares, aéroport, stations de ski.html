@@ -1,0 +1,1102 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mon Chauffeur Lyonnais – Berlines & vans, gares, aéroport, stations de ski</title>
+<meta name="description" content="Chauffeur à Lyon 7j/7 : transferts gares et aéroport, trajets du quotidien, navettes stations de ski, mise à disposition. Réservation en 30 secondes par WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Nunito:wght@900&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<style>
+:root{
+  --bg:#2d2c2a; --card:#3a3836; --ink:#f6f5f3; --title:#ffffff; --muted:#cfccc6; --line:#524f4b;
+  --brand:#f6f5f3; --brand-ink:#2d2c2a; --sun:#e2c58e; --sun-ink:#2d2c2a; --wa:#22c55e; --soft:#46443f; color-scheme:dark;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+h1,h2,h3{color:var(--title)}
+[style*="background:#1f4a37"] h2{color:#fffaf0}
+[style*="background:#1f4a37"] .btn-line{color:#f4efe6;border-color:rgba(244,239,230,.55)}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px);scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:Figtree,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.display{font-family:"Bricolage Grotesque",Figtree,system-ui,sans-serif;letter-spacing:-.02em;line-height:1.08}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--card);z-index:60}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--card);border-bottom:1px solid var(--line)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 12px 28px -16px rgba(0,0,0,.7)}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-weight:600;border-radius:12px;padding:.7rem 1.1rem;min-height:46px;transition:transform .15s,filter .15s;cursor:pointer;border:0}
+.btn:active{transform:scale(.97)} .btn:hover{filter:brightness(1.06)}
+.btn-wa{background:var(--wa);color:#052e16} .btn-call{background:var(--brand);color:var(--brand-ink)} .btn-sun{background:var(--sun);color:var(--sun-ink)}
+.btn-line{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
+.muted{color:var(--muted)}
+.field{width:100%;background:var(--bg);border:1.5px solid var(--line);border-radius:12px;padding:.8rem .9rem;min-height:48px;color:var(--ink);font-size:1rem}
+.field:focus,.btn:focus-visible,a:focus-visible,.seg label:has(input:focus-visible){outline:3px solid var(--sun);outline-offset:2px}
+.seg input{position:absolute;opacity:0}
+.seg label{flex:1;text-align:center;padding:.75rem .5rem;border:1.5px solid var(--line);border-radius:12px;cursor:pointer;font-weight:600;background:var(--bg)}
+.seg input:checked+label{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+.nav a{padding:.5rem .8rem;border-radius:10px;font-weight:600;color:var(--muted)}
+.nav a[aria-current="page"]{color:var(--ink);background:var(--soft)}
+.hero-bg h1{color:#ffffff}
+.page{display:none} .page.on{display:block}
+.road{background:repeating-linear-gradient(90deg,var(--sun) 0 28px,transparent 28px 52px);height:5px;border-radius:3px}
+.hero-bg{background:radial-gradient(120% 90% at 85% 0%,#4c4a47 0%,#2d2c2a 68%);color:#f6f5f3}
+.hero-bg .road{background:repeating-linear-gradient(90deg,#e6d7b0 0 28px,transparent 28px 52px)}
+table{width:100%;border-collapse:collapse} th,td{padding:.85rem 1rem;text-align:left;border-bottom:1px solid var(--line)}
+th{font-weight:600;color:var(--muted);font-size:.9rem} td.p{font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+.tile{width:56px;height:56px;border-radius:14px;background:var(--soft);display:grid;place-items:center;font-size:1.7rem}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:40}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-q{width:100%;display:flex;justify-content:space-between;align-items:center;gap:1rem;text-align:left;padding:1.1rem 0;min-height:52px;font-weight:600;font-size:1.05rem;background:none;border:0;color:var(--ink);cursor:pointer}
+.faq-q .chev{flex-shrink:0;font-size:1.5rem;line-height:1;color:var(--sun);transition:transform .25s}
+.faq-q[aria-expanded='true'] .chev{transform:rotate(45deg)}
+.faq-a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
+.faq-a.open{grid-template-rows:1fr}
+.faq-a>div{overflow:hidden;visibility:hidden;transition:visibility 0s .3s}
+.faq-a.open>div{visibility:visible;transition-delay:0s}
+.faq-a p{padding-bottom:1.1rem;color:var(--muted);max-width:62ch}
+.tabs{position:relative;display:inline-flex;gap:2px;padding:4px;border-radius:14px;background:var(--soft);max-width:100%;overflow-x:auto}
+.tab{position:relative;z-index:1;min-height:44px;padding:.6rem 1.1rem;border:0;border-radius:10px;background:none;color:var(--muted);font-weight:600;white-space:nowrap;cursor:pointer;transition:color .2s}
+.tab[aria-selected='true']{color:var(--brand-ink)}
+.tab-ind{position:absolute;top:4px;bottom:4px;left:0;z-index:0;border-radius:10px;background:var(--brand);transition:transform .32s cubic-bezier(.3,.8,.3,1),width .32s cubic-bezier(.3,.8,.3,1)}
+.tabpanel{animation:rise .35s ease}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.copy{display:flex;width:100%;align-items:center;justify-content:space-between;gap:1rem;padding:.9rem 1.1rem;text-align:left;border:1.5px dashed var(--line);border-radius:14px;background:var(--bg);color:var(--ink);font-weight:600;cursor:pointer;transition:border-color .2s}
+.copy small{display:block;font-weight:400;color:var(--muted)}
+.copy .cl{color:var(--sun);white-space:nowrap}
+.copy.done{border-color:var(--wa);border-style:solid}
+.copy.done .cl{color:var(--wa)}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:70;padding:.7rem 1.2rem;border-radius:999px;background:var(--wa);color:#052e16;font-weight:700;opacity:0;transform:translate(-50%,16px);pointer-events:none;transition:opacity .25s,transform .25s}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.calc-price{font-size:clamp(2.6rem,10vw,4rem);font-weight:800;color:var(--title);line-height:1}
+.tab:focus-visible,.faq-q:focus-visible,.copy:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.card{transition:transform .2s ease,border-color .2s ease}
+.tile{transition:transform .25s ease}
+.seg label{transition:border-color .2s,background-color .2s,transform .15s}
+.seg label:active{transform:scale(.97)}
+a.card:active{transform:scale(.985)}
+#fleet-panel{touch-action:pan-y}
+@keyframes fromRight{from{opacity:0;transform:translateX(32px)}to{opacity:1;transform:none}}
+@keyframes fromLeft{from{opacity:0;transform:translateX(-32px)}to{opacity:1;transform:none}}
+.tabpanel.tp-next{animation-name:fromRight}
+.tabpanel.tp-prev{animation-name:fromLeft}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .55s ease,transform .55s ease}
+.reveal.in{opacity:1;transform:none}
+.hero-bg>div>div>*{animation:rise .6s ease backwards}
+.hero-bg>div>div>*:nth-child(2){animation-delay:.08s}
+.hero-bg>div>div>*:nth-child(3){animation-delay:.16s}
+.hero-bg>div>div>*:nth-child(4){animation-delay:.24s}
+#trip{animation:rise .6s .2s ease backwards}
+@keyframes ring{0%{box-shadow:0 0 0 0 rgba(34,197,94,.55)}70%,100%{box-shadow:0 0 0 14px rgba(34,197,94,0)}}
+#trip .btn-wa,.hero-cta .btn-wa{animation:ring 2.8s ease-out 1.2s infinite}
+#trip .btn-wa:hover,.hero-cta .btn-wa:hover{animation-play-state:paused}
+@media (hover:hover){
+  .btn:hover{transform:translateY(-2px)}
+  .btn:active{transform:scale(.97)}
+  article.card:hover,figure.card:hover,a.card:hover,#trust .card:hover{transform:translateY(-4px);border-color:var(--sun)}
+  .card:hover .tile{transform:rotate(-8deg) scale(1.08)}
+  .seg label:hover,.copy:hover{border-color:var(--sun)}
+  .nav a:hover{color:var(--ink)}
+}
+:root{--spring:cubic-bezier(.34,1.56,.64,1);--ease:cubic-bezier(.2,.7,.2,1)}
+.btn{transition:transform .35s var(--spring),filter .15s,box-shadow .25s}
+.card{transition:transform .4s var(--spring),border-color .2s,box-shadow .3s}
+.tile{transition:transform .4s var(--spring)}
+.tab{transition:color .2s,transform .35s var(--spring)}
+.seg label,.copy,.nav a{transition:transform .35s var(--spring),border-color .2s,background-color .2s,color .2s}
+.reveal{opacity:0;transform:translateY(48px) scale(.96);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@keyframes heroIn{from{opacity:0;transform:translateY(34px)}to{opacity:1;transform:none}}
+@keyframes pageIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@keyframes fadeOnly{from{opacity:0}to{opacity:1}}
+.page.on{animation:pageIn .5s var(--ease) backwards}
+.hero-bg>div>div>*{animation:heroIn .85s var(--ease) backwards}
+.hero-bg>div>div>*:nth-child(2){animation-delay:.1s}
+.hero-bg>div>div>*:nth-child(3){animation-delay:.2s}
+.hero-bg>div>div>*:nth-child(4){animation-delay:.3s}
+.hero-bg>div>div>*:nth-child(5){animation-delay:.4s}
+#trip{animation:heroIn .95s .25s var(--ease) backwards}
+@media (hover:hover){
+  .btn:hover{transform:translateY(-3px) scale(1.05);box-shadow:0 12px 26px -10px rgba(0,0,0,.6)}
+  .tab:hover{transform:scale(1.08)}
+  article.card:hover,figure.card:hover,a.card:hover,#trust .card:hover{transform:translateY(-7px) scale(1.03);border-color:var(--sun);box-shadow:0 20px 40px -18px rgba(226,197,142,.28)}
+  .card:hover .tile{transform:rotate(-10deg) scale(1.18)}
+  .seg label:hover{transform:scale(1.04)}
+  .copy:hover{transform:scale(1.02)}
+  .nav a:hover{transform:scale(1.07)}
+}
+.btn:active{transform:scale(.92)}
+.tab:active{transform:scale(.9)}
+.seg label:active{transform:scale(.94)}
+.copy:active,.nav a:active{transform:scale(.95)}
+article.card:active,figure.card:active,a.card:active,#trust .card:active{transform:scale(.95)}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{transform:none;transition-duration:.5s}
+  .page.on,.hero-bg>div>div>*,#trip,.tabpanel,.tabpanel.tp-next,.tabpanel.tp-prev{animation-name:fadeOnly}
+  #trip .btn-wa,.hero-cta .btn-wa{animation:none}
+}
+
+/* ---- Tunnel de réservation ---- */
+.wz-bar{flex:1;height:5px;border-radius:3px;background:var(--line);position:relative;overflow:hidden;list-style:none}
+.wz-bar::after{content:'';position:absolute;inset:0;background:var(--sun);transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease)}
+.wz-bar.done::after{transform:scaleX(1)}
+.wz-bar.cur::after{transform:scaleX(1);opacity:.5}
+.opt{display:flex;align-items:center;gap:.65rem;width:100%;min-height:50px;padding:.7rem .9rem;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font-weight:600;text-align:left;cursor:pointer;transition:transform .35s var(--spring),border-color .2s,background-color .2s}
+.opt[aria-pressed='true'],.opt[aria-checked='true']{border-color:var(--sun);background:var(--soft);box-shadow:inset 0 0 0 1px var(--sun)}
+.vcard{flex-direction:column;align-items:flex-start;gap:.25rem}
+.pax-btn{width:48px;height:48px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font-size:1.5rem;font-weight:700;cursor:pointer;transition:transform .35s var(--spring),border-color .2s}
+.chip{padding:.45rem .8rem;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;transition:transform .35s var(--spring),border-color .2s,color .2s}
+.sum-row{display:grid;grid-template-columns:5.2rem 1fr auto;gap:.75rem;align-items:baseline;padding:.65rem 0;border-bottom:1px solid var(--line)}
+.sum-row:last-child{border-bottom:0}
+.sum-row dt{color:var(--muted);font-size:.88rem}
+.sum-row dd{font-weight:600;margin:0;overflow-wrap:anywhere}
+.edit{background:none;border:0;color:var(--sun);text-decoration:underline;text-underline-offset:3px;font-size:.88rem;cursor:pointer;padding:.25rem}
+.soft-link{text-decoration:underline;text-underline-offset:3px}
+.opt:focus-visible,.pax-btn:focus-visible,.chip:focus-visible,.edit:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+@media (hover:hover){.opt:hover,.chip:hover,.pax-btn:hover{border-color:var(--sun);transform:scale(1.03)}}
+.opt:active,.pax-btn:active,.chip:active{transform:scale(.95)}
+
+/* ---- Pages : même animation d'entrée, selon le sens de navigation ---- */
+.page.on.dn{animation:fromRight .45s var(--ease) backwards}
+.page.on.dp{animation:fromLeft .45s var(--ease) backwards}
+main{touch-action:pan-y pinch-zoom}
+.faq-q{transition:transform .35s var(--spring),color .2s}
+.faq-q:active{transform:scale(.985)}
+@media (hover:hover){.faq-q:hover{color:var(--title)}}
+@media (prefers-reduced-motion:reduce){.page.on.dn,.page.on.dp{animation-name:fadeOnly}}
+
+/* ---- Icônes, gabarits uniformes, emplacements visuels ---- */
+.ico{display:inline-flex;align-items:center;justify-content:center;flex:none}
+.ic{width:1.15em;height:1.15em;flex:none}
+.ic.big{width:28px;height:28px}
+.btn,.tab,.opt,.seg label,.soft-link,.link-cta,.copy .cl{gap:.5rem}
+.tab{display:inline-flex;align-items:center}
+.seg label{display:flex;align-items:center;justify-content:center}
+.pax-btn{display:inline-grid;place-items:center}
+.pax-btn .ic{width:1.1rem;height:1.1rem}
+.tile{width:52px;height:52px;border-radius:14px;background:var(--soft);border:1px solid var(--line);color:var(--sun);display:grid;place-items:center;flex:none;font-size:1rem}
+.tile .ic{width:26px;height:26px}
+.stars{display:flex;gap:2px;color:var(--sun)}
+.stars .ic{width:16px;height:16px}
+.link-cta{display:inline-flex;align-items:center;font-weight:600;color:var(--sun);text-underline-offset:4px;transition:gap .25s var(--ease)}
+.link-cta .ic{width:1rem;height:1rem;transition:transform .3s var(--spring)}
+@media (hover:hover){.link-cta:hover{text-decoration:underline}.link-cta:hover .ic{transform:translateX(4px)}}
+.eq{grid-auto-rows:1fr}
+.cardfill{display:flex;flex-direction:column;height:100%}
+.card.has-media{padding:0;overflow:hidden}
+.media{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;overflow:hidden;aspect-ratio:16/10;border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,#3b3937,#2a2927);color:var(--muted)}
+.media::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.03) 0 1px,transparent 1px 8px)}
+.media>.ico,.media>.slot-label{position:relative}
+.media .ic{width:34px;height:34px;opacity:.55}
+.slot-label{font-size:.78rem;opacity:.6}
+.media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.media.filled>:not(img){display:none}
+.has-media .media{border:0;border-bottom:1px solid var(--line);border-radius:0}
+.media-43{aspect-ratio:4/3}
+.media-169{aspect-ratio:16/9}
+.media-wide{aspect-ratio:16/9}
+@media (min-width:768px){.media-wide{aspect-ratio:21/9}}
+
+/* ---- Tunnel : suggestions, aperçu du message ---- */
+.chip{display:inline-flex;align-items:center;gap:.45rem}
+.chip .ic{width:1rem;height:1rem;color:var(--sun)}
+.chip-lg{min-height:44px;padding:.5rem .95rem;font-size:.92rem;color:var(--ink)}
+.chip[aria-pressed='true']{border-color:var(--sun);background:var(--soft);box-shadow:inset 0 0 0 1px var(--sun)}
+.msg-sum{display:inline-flex;align-items:center;gap:.5rem;cursor:pointer;list-style:none;font-size:.9rem;color:var(--sun);padding:.35rem 0}
+.msg-sum::-webkit-details-marker{display:none}
+.msg-sum .ic{width:1.05rem;height:1.05rem}
+.msg{white-space:pre-wrap;font:inherit;font-size:.85rem;line-height:1.55;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:.8rem .9rem;margin:.4rem 0 0;color:var(--muted)}
+
+/* ---- Monogramme, badges énergie, récap ---- */
+.badge{display:inline-flex;align-items:center;gap:.35rem;padding:.2rem .6rem;border-radius:999px;border:1px solid var(--line);background:var(--soft);color:var(--sun);font-size:.75rem;font-weight:600}
+.badge .ic{width:.85rem;height:.85rem}
+.wz-sum{padding:.9rem 1rem;border:1px solid var(--line);border-radius:14px;background:var(--bg)}
+
+/* ---- Marque : monogramme et lockup ---- */
+.brand{display:flex;align-items:center;gap:clamp(.55rem,2vw,.9rem);min-width:0;flex:1 1 auto}
+.mono{flex:none;display:grid;place-items:center;padding:.45rem .55rem .45rem .6rem;border:1.5px solid rgba(232,232,236,.55);border-radius:10px;font-family:Nunito,"Arial Rounded MT Bold",system-ui,sans-serif;font-weight:900;font-size:clamp(1.05rem,4.2vw,1.4rem);letter-spacing:.03em;line-height:1;color:#f4f4f6;-webkit-text-stroke:.6px currentColor;background:rgba(255,255,255,.03)}
+.brand-txt{display:flex;flex-direction:column;gap:.28rem;min-width:0;line-height:1}
+.brand-name{font-family:"Bricolage Grotesque",Figtree,sans-serif;font-weight:800;font-size:clamp(.92rem,4.1vw,1.65rem);letter-spacing:-.015em;color:var(--title);white-space:nowrap}
+.brand-tag{font-size:.62rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+@media (max-width:360px){.brand-tag{display:none}}
+.energy-note{display:flex;align-items:flex-start;gap:1rem}
+
+.stepper-row{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.8rem 0;border-bottom:1px solid var(--line)}
+.stepper-row:first-child{padding-top:0}
+.stepper-row small{font-size:.82rem}
+
+.rt{display:flex;align-items:center;gap:.8rem;padding:.75rem .95rem;border:1px solid var(--line);border-radius:14px;background:var(--bg)}
+.rt .ic{width:1.4rem;height:1.4rem;color:var(--sun)}
+.rt strong{font-weight:600}
+
+/* ---- Mentions légales et confidentialité ---- */
+.legal{font-size:.78rem;line-height:1.6;color:var(--muted);border-top:1px solid var(--line);padding-top:1rem;display:grid;gap:.25rem}
+.legal strong{color:var(--ink);font-weight:600}
+.todo{color:var(--sun)}
+.legal-btn{background:none;border:0;color:var(--muted);cursor:pointer;padding:.4rem 0;min-height:44px}
+.legal-btn:hover{color:var(--ink)}
+dialog#privacy{border:1px solid var(--line);border-radius:18px;background:var(--card);color:var(--ink);padding:0;width:min(560px,calc(100vw - 32px));max-height:85vh;overflow:auto}
+dialog#privacy::backdrop{background:rgba(0,0,0,.65)}
+.dlg{padding:1.4rem}
+.dlg p,.dlg li{font-size:.92rem}
+.dlg-x{font-size:1.8rem;line-height:1;color:var(--muted);background:none;border:0;cursor:pointer;width:44px;height:44px;margin:-8px -8px 0 0}
+
+/* ---- Carrousels de la flotte ---- */
+.slider{display:flex;gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;padding-bottom:.25rem;border-radius:18px}
+.slider::-webkit-scrollbar{display:none}
+.slider:focus-visible{outline:3px solid var(--sun);outline-offset:4px}
+.slide{flex:0 0 86%;scroll-snap-align:start;margin:0}
+@media (min-width:640px){.slide{flex-basis:calc(50% - .5rem)}}
+@media (min-width:1024px){.slide{flex-basis:calc(33.333% - .67rem)}}
+.slide .media{aspect-ratio:4/3;border-radius:18px;border:1px solid var(--line)}
+.slide .media>svg{position:relative}
+.slide .sil{width:84%;height:auto}
+.slide figcaption{margin-top:.6rem;font-size:.88rem;color:var(--muted)}
+.slider-ctl{display:flex;align-items:center;justify-content:space-between;margin-top:.9rem}
+.slider-ctl[hidden]{display:none}
+.dots{display:flex;align-items:center}
+.dot{width:24px;height:24px;padding:8px 0;border:0;background:none;cursor:pointer;position:relative}
+.dot::after{content:'';display:block;height:8px;width:8px;margin:auto;border-radius:4px;background:var(--line);transition:width .3s var(--spring),background-color .2s}
+.dot[aria-current='true']::after{width:22px;background:var(--sun)}
+.pax-btn:disabled{opacity:.35;cursor:default}
+.fleet-cat+.fleet-cat{border-top:1px solid var(--line);padding-top:2.5rem}
+
+.react{display:flex;gap:.65rem;align-items:flex-start;padding:.75rem .95rem;border:1px solid rgba(226,197,142,.45);border-radius:12px;background:rgba(226,197,142,.08);font-size:.95rem;line-height:1.5;max-width:34rem}
+.react .ic{width:1.2rem;height:1.2rem;color:var(--sun);margin-top:.15rem}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="max-w-6xl mx-auto px-4 h-[68px] md:h-[76px] flex items-center justify-between gap-3">
+    <a href="#accueil" class="brand" aria-label="Mon Chauffeur Lyonnais, accueil">
+      <span class="mono" aria-hidden="true">MCL</span>
+      <span class="brand-txt"><span class="brand-name">Mon Chauffeur Lyonnais</span><span class="brand-tag">Transport privé · Lyon</span></span>
+    </a>
+    <nav class="nav hidden md:flex gap-1" aria-label="Navigation principale">
+      <a href="#accueil" data-nav="accueil">Accueil</a><a href="#tarifs" data-nav="tarifs">Tarifs</a>
+      <a href="#flotte" data-nav="flotte">Notre flotte</a><a href="#contact" data-nav="contact">Contact</a>
+    </nav>
+    <div class="flex gap-2">
+      <a class="btn btn-call !px-3 sm:!px-4" data-call href="#"><span class="ico" data-i="phone"></span><span class="hidden sm:inline">Appeler</span></a>
+      <a class="btn btn-wa !px-3 sm:!px-4" data-wa href="#" target="_blank" rel="noopener"><span class="ico" data-i="whatsapp"></span><span class="hidden sm:inline">WhatsApp</span></a>
+    </div>
+  </div>
+  <nav class="nav md:hidden flex justify-around px-2 pb-2" aria-label="Navigation mobile">
+    <a href="#accueil" data-nav="accueil">Accueil</a><a href="#tarifs" data-nav="tarifs">Tarifs</a>
+    <a href="#flotte" data-nav="flotte">Flotte</a><a href="#contact" data-nav="contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<!-- ================= ACCUEIL ================= -->
+<section class="page" data-page="accueil" aria-label="Accueil">
+  <div class="hero-bg">
+    <div class="max-w-6xl mx-auto px-4 py-10 md:py-16 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-2xl md:text-4xl font-bold">Service VTC &amp; Transport Privé à Lyon</h1>
+        <div class="react mt-4"><span class="ico" data-i="bolt"></span><span><strong>Réactivité :</strong> prise en charge rapide, disponible sur tous secteurs, temps d’attente minimal.</span></div>
+        <div class="road mt-6 max-w-xs"></div>
+        <ul class="mt-6 space-y-2 text-base">
+          <li class="flex gap-2"><span class="ico" style="color:var(--sun);margin-top:.3em" data-i="check"></span><span>Gares, Aéroports &amp; Stations de ski (Alpes)</span></li><li class="flex gap-2"><span class="ico" style="color:var(--sun);margin-top:.3em" data-i="check"></span><span>Trajets professionnels, particuliers &amp; toutes distances</span></li><li class="flex gap-2"><span class="ico" style="color:var(--sun);margin-top:.3em" data-i="check"></span><span>Berlines &amp; Vans grand confort (ponctualité garantie)</span></li>
+        </ul>
+        <p class="mt-6 text-sm opacity-80">Une question ? <a class="soft-link" data-wa href="#" target="_blank" rel="noopener">Écrivez-nous sur WhatsApp</a> ou <a class="soft-link" data-call href="#">appelez-nous</a>.</p>
+      </div>
+
+      <!-- Tunnel de réservation -->
+      <form id="trip" class="card p-5 md:p-6 shadow-2xl" style="color:var(--ink)" novalidate aria-labelledby="trip-title">
+        <div class="flex items-center justify-between gap-3">
+          <h2 id="trip-title" class="text-2xl font-bold">Réservez votre course</h2>
+          <span id="wz-count" class="muted text-sm whitespace-nowrap" aria-live="polite">Étape 1 sur 3</span>
+        </div>
+        <ol id="wz-bars" class="flex gap-2 mt-4 p-0" aria-hidden="true"></ol>
+        <p id="wz-label" class="font-semibold mt-4 outline-none" aria-live="polite"></p>
+        <div id="wz-panel" class="mt-3"></div>
+        <datalist id="places"></datalist>
+        <p id="wz-err" class="text-sm mt-3 font-semibold" style="color:#ffb4a2" role="alert" hidden></p>
+        <div class="flex items-center gap-3 mt-5">
+          <button type="button" id="wz-back" class="btn btn-line" style="visibility:hidden"><span class="ico" data-i="arrow-left"></span>Retour</button>
+          <button type="button" id="wz-next" class="btn btn-call flex-1">Continuer<span class="ico" data-i="arrow-right"></span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-4 py-14">
+    <h2 class="text-3xl md:text-4xl font-bold">Un trajet pour chaque besoin</h2>
+    <div id="services" class="mt-8 grid sm:grid-cols-2 gap-4 eq"></div>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-4 pb-14">
+    <h2 class="text-3xl md:text-4xl font-bold">Notre flotte</h2>
+    <p class="muted mt-2 max-w-xl">Deux catégories pour tous vos trajets. Le véhicule exact est attribué selon les disponibilités.</p>
+    <div id="fleet-home" class="mt-8 space-y-12"></div>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-4 pb-14">
+    <div class="media media-wide" data-slot="home-banner" data-alt="Lyon et nos chauffeurs" role="img" aria-label="Emplacement réservé à un visuel"><span class="ico" data-i="image"></span><span class="slot-label">Visuel à venir</span></div>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-4 pb-16">
+    <div id="trust" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 eq"></div>
+    <h2 class="text-3xl md:text-4xl font-bold mt-14">Ce que disent nos clients</h2>
+    <div id="reviews" class="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 eq"></div>
+  </div>
+  <div class="max-w-3xl mx-auto px-4 pb-16">
+    <h2 class="text-3xl md:text-4xl font-bold">Questions fréquentes</h2>
+    <div id="faq" class="mt-6 border-t" style="border-color:var(--line)"></div>
+    <div class="card p-5 mt-8 flex flex-wrap items-center justify-between gap-3">
+      <p class="font-semibold">Une autre question ? On répond en quelques minutes.</p>
+      <a class="btn btn-wa" data-wa="Bonjour, j’ai une question avant de réserver." href="#" target="_blank" rel="noopener"><span class="ico" data-i="whatsapp"></span>Poser ma question</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TARIFS ================= -->
+<section class="page" data-page="tarifs" aria-label="Tarifs">
+  <div class="max-w-4xl mx-auto px-4 py-10 md:py-14">
+    <h1 class="text-4xl md:text-5xl font-extrabold">Tarifs clairs, prix fixes</h1>
+    <p class="muted mt-3 max-w-xl">Prix indicatifs « à partir de », par trajet et par véhicule (pas par personne). Le tarif exact vous est confirmé avant la course.</p>
+
+    <form id="calc" class="card p-5 md:p-6 mt-8" onsubmit="return false">
+      <h2 class="text-2xl font-bold">Calculez votre tarif</h2>
+      <fieldset class="seg mt-4"><legend class="text-sm font-semibold mb-1">Type de trajet</legend>
+        <div id="calc-cat" class="grid grid-cols-2 sm:grid-cols-4 gap-2"></div></fieldset>
+      <div class="grid sm:grid-cols-2 gap-4 mt-4">
+        <label class="block"><span class="text-sm font-semibold" id="calc-dest-label">Trajet</span><select class="field mt-1" id="calc-dest"></select></label>
+        <fieldset class="seg"><legend class="text-sm font-semibold mb-1">Véhicule</legend>
+          <div class="flex gap-2">
+            <div class="relative flex flex-1"><input type="radio" name="cv" id="cv1" value="Berline" checked><label for="cv1"><span class="ico" data-i="car"></span>Berline</label></div>
+            <div class="relative flex flex-1"><input type="radio" name="cv" id="cv2" value="Van"><label for="cv2"><span class="ico" data-i="bus"></span>Van</label></div>
+          </div></fieldset>
+      </div>
+      <div class="mt-6 pt-5 border-t flex flex-wrap items-end justify-between gap-4" style="border-color:var(--line)">
+        <div><p class="muted text-sm" id="calc-label"></p>
+          <p class="calc-price display mt-1" aria-live="polite"><span class="text-xl font-semibold muted">dès </span><span id="calc-price">0</span> €</p></div>
+        <a id="calc-wa" class="btn btn-wa" href="#" target="_blank" rel="noopener"><span class="ico" data-i="whatsapp"></span>Réserver ce trajet</a>
+      </div>
+    </form>
+
+    <h2 class="text-2xl font-bold mt-10">Gares, aéroport et région</h2>
+    <div class="card mt-4 overflow-x-auto"><table id="tbl-trips"><thead><tr><th>Trajet</th><th>Berline</th><th>Minivan</th></tr></thead><tbody></tbody></table></div>
+
+    <h2 class="text-2xl font-bold mt-12">Stations de ski (hiver)</h2>
+    <div class="card mt-4 overflow-x-auto"><table id="tbl-ski"><thead><tr><th>Depuis Lyon vers</th><th>Berline</th><th>Minivan</th></tr></thead><tbody></tbody></table></div>
+
+    <h2 class="text-2xl font-bold mt-12">Mise à disposition (MAD)</h2>
+    <p class="muted mt-1">Le chauffeur et son véhicule restent à vous, à l’heure ou à la journée.</p>
+    <div class="card mt-4 overflow-x-auto"><table id="tbl-mad"><thead><tr><th>Forfait</th><th>Berline</th><th>Minivan</th></tr></thead><tbody></tbody></table></div>
+
+    <div class="card p-6 mt-12" style="border-color:var(--sun)">
+      <h2 class="text-2xl font-bold">Un trajet qui n’est pas dans la liste ?</h2>
+      <p class="mt-2 max-w-xl">Mariage, groupe, trajet de nuit, longue distance : envoyez-nous votre demande, devis gratuit en quelques minutes.</p>
+      <div class="flex flex-wrap gap-2 mt-4">
+        <a class="btn btn-wa" data-wa="Bonjour, je souhaite un devis sur-mesure pour un trajet." href="#" target="_blank" rel="noopener"><span class="ico" data-i="whatsapp"></span>Demander un devis</a>
+        <a class="btn btn-line" data-call href="#"><span class="ico" data-i="phone"></span>Appeler</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FLOTTE ================= -->
+<section class="page" data-page="flotte" aria-label="Notre flotte">
+  <div class="max-w-6xl mx-auto px-4 py-10 md:py-14">
+    <h1 class="text-4xl md:text-5xl font-extrabold">Notre flotte</h1>
+    <p class="muted mt-3 max-w-xl">Un réseau de chauffeurs professionnels et des véhicules récents, propres et entretenus. Le modèle exact dépend des disponibilités.</p>
+
+    <div class="mt-8"><div id="fleet-tabs" class="tabs" role="tablist" aria-label="Catégories de véhicules"></div></div>
+    <p class="muted text-xs mt-2 md:hidden">Faites glisser pour changer de catégorie</p>
+    <div id="fleet-panel" class="tabpanel mt-6" role="tabpanel" tabindex="0"></div>
+    
+
+    
+    
+
+    <div class="card p-6 mt-12 flex flex-wrap items-center justify-between gap-4">
+      <div><h2 class="text-xl font-bold">Besoin d’un modèle en particulier ?</h2><p class="muted">Dites-le-nous, on fait le maximum pour vous l’attribuer.</p></div>
+      <a class="btn btn-wa" data-wa="Bonjour, j’aimerais réserver un véhicule précis." href="#" target="_blank" rel="noopener"><span class="ico" data-i="whatsapp"></span>Réserver</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="page" data-page="contact" aria-label="Contact">
+  <div class="max-w-3xl mx-auto px-4 py-10 md:py-14">
+    <h1 class="text-4xl md:text-5xl font-extrabold">Contact</h1>
+    <p class="muted mt-3">Le plus rapide : un message WhatsApp avec votre trajet. On répond en quelques minutes.</p>
+    <div class="grid sm:grid-cols-2 gap-4 mt-8">
+      <a class="card cardfill p-6" data-wa href="#" target="_blank" rel="noopener">
+        <div class="tile" style="background:var(--wa);border-color:transparent;color:#052e16"><span class="ico" data-i="whatsapp"></span></div><h2 class="text-xl font-bold mt-4">WhatsApp Business</h2><p class="muted flex-1" data-phone-text></p>
+        <span class="btn btn-wa mt-4 w-full">Écrire maintenant</span></a>
+      <a class="card cardfill p-6" data-call href="#">
+        <div class="tile"><span class="ico" data-i="phone"></span></div><h2 class="text-xl font-bold mt-4">Téléphone</h2><p class="muted flex-1" data-phone-text></p>
+        <span class="btn btn-call mt-4 w-full">Appeler</span></a>
+    </div>
+    <div class="card p-6 mt-4">
+      <h2 class="text-xl font-bold">Zone et horaires</h2>
+      <p class="muted mt-2">Lyon, Métropole, aéroport Saint-Exupéry, gares et stations des Alpes. Service 7j/7, réservation de dernière minute possible selon disponibilités.</p>
+    </div>
+    <div class="card p-6 mt-4">
+      <h2 class="text-xl font-bold">Copier nos coordonnées</h2>
+      <p class="muted mt-1 text-sm">Touchez pour copier dans le presse-papiers.</p>
+      <div class="mt-4 space-y-3">
+        <button type="button" class="copy" data-copy="phone"><span><small>Téléphone</small><span data-phone-text></span></span><span class="cl"><span class="ico" data-i="copy"></span>Copier</span></button>
+        <button type="button" class="copy" data-copy="email"><span><small>E-mail</small><span data-email-text></span></span><span class="cl"><span class="ico" data-i="copy"></span>Copier</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<footer class="border-t" style="border-color:var(--line)">
+  <div class="max-w-6xl mx-auto px-4 py-8 pb-24 md:pb-8 flex flex-wrap items-center justify-between gap-x-6 gap-y-2 text-sm muted">
+    <span>© <span id="yr"></span> · SASU MTL CAR · Siège social : Lyon 9e</span>
+    <span class="flex flex-wrap items-center gap-x-5">
+      <a class="soft-link" id="pro-mail" href="#"><span data-email-text></span></a>
+      <button type="button" class="soft-link legal-btn" id="open-privacy">Confidentialité</button>
+    </span>
+  </div>
+</footer>
+
+<dialog id="privacy" aria-labelledby="privacy-title">
+  <div class="dlg">
+    <div class="flex items-start justify-between gap-4">
+      <h2 id="privacy-title" class="text-xl font-bold">Politique de confidentialité</h2>
+      <button type="button" class="dlg-x" id="close-privacy" aria-label="Fermer">×</button>
+    </div>
+    <p class="muted text-sm mt-1">Version courte, en langage simple.</p>
+    <h3 class="font-semibold mt-4">Données saisies dans le formulaire</h3>
+    <p class="mt-1">Départ, arrivée, type de service, nombre de passagers et de valises, véhicule choisi, et la distance estimée. Elles servent uniquement à préparer votre demande de course et à vous répondre.</p>
+    <h3 class="font-semibold mt-4">Où vont-elles ?</h3>
+    <ul class="mt-1 list-disc pl-5 space-y-1">
+      <li>Ce site n’enregistre pas ces données : elles restent dans votre navigateur jusqu’à l’envoi.</li>
+      <li>Au clic sur « Envoyer sur WhatsApp », elles sont transmises à notre ligne WhatsApp Business, selon les conditions de WhatsApp.</li>
+      <li>Pour estimer la distance, les adresses saisies peuvent être envoyées aux services OpenStreetMap (Nominatim) et OSRM. Aucun nom ni numéro de téléphone n’est transmis.</li>
+      <li>Les polices du site sont chargées depuis Google Fonts.</li>
+    </ul>
+    <h3 class="font-semibold mt-4">Durée de conservation</h3>
+    <p class="mt-1">Les échanges WhatsApp sont conservés le temps nécessaire au traitement de votre demande et aux obligations comptables, puis supprimés. <span class="todo">[durée à confirmer]</span></p>
+    <h3 class="font-semibold mt-4">Vos droits (RGPD)</h3>
+    <p class="mt-1">Vous pouvez demander l’accès, la rectification ou la suppression de vos données, ou vous opposer à leur usage, en écrivant à <span data-email-text></span>. Vous pouvez aussi saisir la CNIL (cnil.fr).</p>
+    <p class="muted text-xs mt-4">Responsable de traitement : SASU MTL CAR, Lyon 9e.</p>
+    <button type="button" class="btn btn-call mt-5" id="close-privacy-2">Fermer</button>
+  </div>
+</dialog>
+
+<script>
+/* ============ 1. CONFIGURATION (à modifier) ============ */
+const CONFIG = {
+  brand: "Mon Chauffeur Lyonnais",
+  phone: "+33600000000",          // numéro d’appel
+  whatsapp: "33600000000",        // format international sans « + »
+  email: "contact@monchauffeurlyon.fr",
+  defaultMsg: "Bonjour, je souhaite réserver un trajet."
+};
+
+/* ============ 2. DONNÉES ============ */
+const PLACES = ["Gare Lyon Part-Dieu","Gare Lyon Perrache","Aéroport Lyon Saint-Exupéry","Gare TGV Saint-Exupéry","Lyon centre – Presqu’île","Villeurbanne","Vienne","Villefranche-sur-Saône","Saint-Étienne","Grenoble","Annecy","Genève","Les 2 Alpes","Alpe d’Huez","Les Menuires","Val Thorens","Courchevel","Méribel","Tignes","Val d’Isère","La Plagne","Les Arcs","Chamonix"];
+const SERVICES = [
+  {i:"train",t:"Gares & aéroports",d:"Part-Dieu, Perrache, Saint-Exupéry. Accueil personnalisé avec pancarte à votre nom et aide aux bagages.",m:"Bonjour, je souhaite un transfert gare ou aéroport."},
+  {i:"users",t:"Trajets du quotidien & familles",d:"Rendez-vous, sorties, soirées, trajets avec enfants. Un chauffeur ponctuel et un véhicule propre.",m:"Bonjour, je souhaite réserver un trajet à Lyon."},
+  {i:"mountain",t:"Navettes montagne & stations",d:"Départ de Lyon vers les stations en hiver. Vans spacieux pour les groupes, les valises et les skis.",m:"Bonjour, je souhaite une navette vers une station de ski."},
+  {i:"clock",t:"Mise à disposition",d:"Un chauffeur à l’heure ou à la journée pour enchaîner vos rendez-vous, une visite ou un événement.",m:"Bonjour, je souhaite une mise à disposition avec chauffeur."},
+  {i:"route",t:"Longues distances & colis urgents",d:"Un rendez-vous loin de Lyon, un trajet vers une autre ville, ou un pli express à remettre en main propre le jour même : un chauffeur part sans attendre, au prix annoncé d’avance.",m:"Bonjour, j’ai besoin d’un long trajet ou de l’envoi urgent d’un pli ou d’un colis.",wide:true}
+];
+const TRUST = [
+  {i:"calendar",t:"Rapide et disponible 7j/7",d:"Prise en charge rapide sur tous secteurs, attente minimale."},
+  {i:"wifi",t:"Wi-Fi et chargeurs",d:"Restez connecté pendant le trajet."},
+  {i:"plane",t:"Vols et trains suivis",d:"Suivi en temps réel : on s’adapte aux retards."},
+  {i:"tag",t:"Prix annoncé d’avance",d:"Pas de surprise à l’arrivée."}
+];
+const TRIPS = [
+  ["Part-Dieu ↔ Aéroport Saint-Exupéry",45,65],["Perrache ↔ Aéroport Saint-Exupéry",49,69],
+  ["Part-Dieu ↔ Perrache",18,28],["Lyon ↔ Villefranche-sur-Saône",55,75],["Lyon ↔ Vienne",60,80],
+  ["Lyon ↔ Saint-Étienne",110,140],["Lyon ↔ Grenoble",150,190],["Lyon ↔ Annecy",230,290],["Lyon ↔ Genève",280,350]
+];
+const SKI = [["Les 2 Alpes",330,420],["Alpe d’Huez",330,420],["La Plagne / Les Arcs",420,520],["Méribel / Courchevel",440,540],["Val Thorens / Les Menuires",460,570],["Tignes / Val d’Isère",480,590],["Chamonix",400,500]];
+const MAD = [["1 heure (minimum 2 h)",55,75],["Demi-journée (4 h)",200,260],["Journée (10 h)",420,540]];
+const FLEET_B = [["Berline Confort","1 à 3 passagers, silencieuse et très confortable."],["Pour la ville et les gares","Rendez-vous, trajets du quotidien, aéroport."],["Pour les longues distances","Confort de route, Wi-Fi et chargeurs à bord."]];
+const FLEET_V = [["Van haut de gamme","Grand confort pour les groupes, les familles et les clients exigeants."],["Van Confort","Espace et confort jusqu’à 7 passagers."],["Grand volume","Bagages, skis et groupes : toute la place nécessaire."]];
+
+const FAQ = [
+  ["Comment réserver un chauffeur ?","Saisissez votre trajet dans le module de l’accueil et envoyez-le sur WhatsApp, ou appelez-nous. Nous confirmons le prix et la disponibilité en quelques minutes."],
+  ["Le prix est-il fixe ?","Oui. Le tarif vous est annoncé avant la course et ne change pas en route. Les prix du site sont des tarifs « à partir de » : nous confirmons le montant exact selon votre trajet."],
+  ["Que se passe-t-il si mon vol ou mon train a du retard ?","Nous suivons vos vols et vos trains en temps réel. Votre chauffeur adapte son horaire sans frais supplémentaires pour un retard raisonnable."],
+  ["Peut-on voyager avec des enfants ou beaucoup de bagages ?","Bien sûr. Prévenez-nous à la réservation pour les sièges enfants, et choisissez un van pour les familles, les valises et les skis."],
+  ["Comment se passe l’accueil à l’aéroport ou en gare ?","Votre chauffeur vous attend avec une pancarte à votre nom, vous aide avec les bagages et vous accompagne jusqu’au véhicule."],
+  ["Faites-vous les longs trajets, hors de la région ?","Oui. Vers une autre ville, un aéroport ou une gare, dans toute la France et parfois à l’étranger. Demandez un devis : le prix est fixé à l’avance."],
+  ["Pouvez-vous transporter un pli ou un colis urgent ?","Oui, pour un document ou un colis de taille raisonnable à remettre en main propre. Le chauffeur part sans attendre et vous prévient à la remise. Nous ne prenons pas de marchandises volumineuses ou dangereuses."],
+  ["Quels moyens de paiement acceptez-vous ?","Carte bancaire, espèces et virement. Le moyen de paiement se précise lors de la confirmation de votre réservation. Pour les longues distances et les montants importants, un acompte par lien de paiement sécurisé peut être demandé."]
+];
+const CALC = {
+  gare:{label:"Gare",icon:"train",field:"Trajet",rows:[["Lyon centre ↔ Part-Dieu",18,28],["Lyon centre ↔ Perrache",18,28],["Part-Dieu ↔ Perrache",18,28],["Part-Dieu ↔ Gare TGV Saint-Exupéry",45,65]]},
+  aero:{label:"Aéroport",icon:"plane",field:"Trajet",rows:[["Part-Dieu ↔ Saint-Exupéry",45,65],["Perrache ↔ Saint-Exupéry",49,69],["Lyon centre ↔ Saint-Exupéry",49,69],["Villefranche ↔ Saint-Exupéry",70,90]]},
+  ski:{label:"Station de ski",icon:"mountain",field:"Station",rows:SKI},
+  mad:{label:"Mise à disposition",icon:"clock",field:"Forfait",rows:MAD}
+};
+/* ATTENTION : avis d’exemple : remplacez-les par de vrais avis de vos clients (avec leur accord). */
+const REVIEWS = [
+  {n:"Sophie",c:"Transfert gare Part-Dieu",t:"Chauffeur à l’heure, pancarte à mon nom, valises portées jusqu’à la voiture. Simple et sans stress."},
+  {n:"Karim",c:"Navette vers Les 2 Alpes",t:"Un van pour 6 personnes : skis, bagages, tout est passé. Le prix annoncé a été respecté."},
+  {n:"Thomas",c:"Aéroport Saint-Exupéry",t:"Mon vol avait 50 minutes de retard et le chauffeur m’attendait quand même. Je recommande."},
+  {n:"Nadia",c:"Pli express",t:"Un dossier à remettre en main propre le jour même : le chauffeur est parti dans l’heure."}
+];
+const FLEET_TABS = [
+  {key:"b",label:"Berlines",icon:"car",media:true,sub:"De 1 à 4 passagers, idéales pour la ville, les gares et l’aéroport.",items:FLEET_B},
+  {key:"v",label:"Vans & minivans",icon:"bus",media:true,sub:"Jusqu’à 7 passagers, grands coffres, parfaits pour les familles et les stations.",items:FLEET_V},
+  {key:"o",label:"À bord",icon:"sparkles",media:false,sub:"Inclus dans tous nos véhicules.",items:[["Wi-Fi","Restez connecté pendant le trajet.","wifi"],["Chargeurs","USB et USB-C à portée de main.","bolt"],["Eau fraîche","Une bouteille offerte à bord.","droplet"],["Sièges enfants","Disponibles sur demande à la réservation.","smile"]]}
+];
+
+/* ============ ICÔNES SVG (fines, 24x24) ============ */
+const ICONS = {
+  leaf:`<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10z"/><path d="M2 21c0-3 1.9-5.4 5.6-6.6C10 13.7 12 12.4 13 11"/>`,
+  pin:`<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>`,
+  phone:`<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/>`,
+  whatsapp:`<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/>`,
+  train:`<path d="M8 3.1V7a4 4 0 0 0 8 0V3.1"/><path d="m9 15-1-1"/><path d="m15 15 1-1"/><path d="M9 19c-2.8 0-5-2.2-5-5v-4a8 8 0 0 1 16 0v4c0 2.8-2.2 5-5 5z"/><path d="m8 19-2 3"/><path d="m16 19 2 3"/>`,
+  plane:`<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>`,
+  mountain:`<path d="m8 3 4 8 5-5 5 15H2z"/>`,
+  clock:`<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>`,
+  users:`<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9"/><path d="M16 3.1a4 4 0 0 1 0 7.8"/>`,
+  route:`<circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/>`,
+  car:`<path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/>`,
+  bus:`<path d="M8 6v6"/><path d="M15 6v6"/><path d="M2 12h19.6"/><path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"/><circle cx="7" cy="18" r="2"/><path d="M9 18h5"/><circle cx="16" cy="18" r="2"/>`,
+  calendar:`<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>`,
+  wifi:`<path d="M5 12.6a11 11 0 0 1 14.1 0"/><path d="M1.4 9a16 16 0 0 1 21.2 0"/><path d="M8.5 16.1a6 6 0 0 1 7 0"/><path d="M12 20h.01"/>`,
+  tag:`<path d="M12.6 2.6A2 2 0 0 0 11.2 2H4a2 2 0 0 0-2 2v7.2a2 2 0 0 0 .6 1.4l8.7 8.7a2 2 0 0 0 2.8 0l6.7-6.7a2 2 0 0 0 0-2.8z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/>`,
+  briefcase:`<rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>`,
+  smile:`<circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01M15 9h.01"/>`,
+  signpost:`<path d="M12 13v8"/><path d="M12 3v3"/><path d="M18 6H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h13l2.5-3z"/>`,
+  sparkles:`<path d="m12 3 1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 3v4M17 5h4"/>`,
+  droplet:`<path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/>`,
+  check:`<path d="M20 6 9 17l-5-5"/>`,
+  'arrow-right':`<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>`,
+  'arrow-left':`<path d="M19 12H5"/><path d="m12 19-7-7 7-7"/>`,
+  swap:`<path d="m21 16-4 4-4-4"/><path d="M17 20V4"/><path d="m3 8 4-4 4 4"/><path d="M7 4v16"/>`,
+  copy:`<rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>`,
+  bolt:`<path d="M13 2 3 14h9l-1 8 10-12h-9z"/>`,
+  star:`<path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.9-6.2-3.3-6.2 3.3 1.2-6.9-5-4.9 6.9-1z" fill="currentColor"/>`,
+  image:`<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/>`
+};
+const ico = (n, c = '') => `<svg class="ic ${c}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${ICONS[n] || ''}</svg>`;
+function hydrateIcons(root = document){
+  root.querySelectorAll('[data-i]').forEach(el => { el.innerHTML = ico(el.dataset.i); el.removeAttribute('data-i'); });
+}
+
+/* ============ EMPLACEMENTS VISUELS ============
+   Chaque [data-slot] est un cadre aux proportions fixes. Pour y placer une photo,
+   indiquez son adresse ci-dessous (URL de votre hébergement, ou image « data: »).
+   Case vide = l’emplacement réservé reste affiché. */
+const MEDIA = {
+  'home-banner':'', 'home-berline-0':'', 'home-berline-1':'', 'home-berline-2':'', 'home-van-0':'', 'home-van-1':'', 'home-van-2':'',
+  'fleet-b-0':'', 'fleet-b-1':'', 'fleet-b-2':'', 'fleet-b-3':'',
+  'fleet-v-0':'', 'fleet-v-1':'', 'fleet-v-2':'', 'fleet-v-3':''
+};
+function applyMedia(root = document){
+  root.querySelectorAll('[data-slot]').forEach(el => {
+    const src = MEDIA[el.dataset.slot];
+    if(!src || el.querySelector('img')) return;
+    const img = new Image();
+    img.alt = el.dataset.alt || ''; img.loading = 'lazy'; img.decoding = 'async';
+    img.onload = () => { el.classList.add('filled'); el.removeAttribute('role'); el.removeAttribute('aria-label'); };
+    img.onerror = () => img.remove();
+    img.src = src; el.appendChild(img);
+  });
+}
+
+/* ============ 3. OUTILS ============ */
+const $ = (s, r=document) => r.querySelector(s), $$ = (s, r=document) => [...r.querySelectorAll(s)];
+const waLink = msg => `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const euro = n => `${n} €`;
+
+/* ============ 4. COMPOSANTS ============ */
+function renderServices(){
+  $("#services").innerHTML = SERVICES.map(s => `
+    <article class="card p-6 flex gap-4${s.wide?' sm:col-span-2':''}"><div class="tile">${ico(s.i)}</div>
+      <div class="flex flex-col flex-1"><h3 class="text-xl font-bold">${s.t}</h3><p class="muted mt-1 flex-1">${s.d}</p>
+      <a class="link-cta mt-4" data-wa="${esc(s.m)}" href="#" target="_blank" rel="noopener">Demander un devis${ico('arrow-right')}</a></div>
+    </article>`).join("");
+}
+function renderReviews(){
+  $("#reviews").innerHTML = REVIEWS.map(r => `<figure class="card p-5 flex flex-col"><div class="stars" aria-label="5 étoiles sur 5" role="img">${ico('star').repeat(5)}</div><blockquote class="mt-3 flex-1">${r.t}</blockquote><figcaption class="mt-4 text-sm"><strong>${r.n}</strong><span class="muted"> · ${r.c}</span></figcaption></figure>`).join("");
+}
+function renderTrust(){
+  $("#trust").innerHTML = TRUST.map(t => `<div class="card p-5"><div class="tile">${ico(t.i)}</div><h3 class="font-bold mt-4">${t.t}</h3><p class="muted text-sm mt-1">${t.d}</p></div>`).join("");
+}
+function renderTable(id, rows){
+  $(`#${id} tbody`).innerHTML = rows.map(r => `<tr><td>${r[0]}</td><td class="p">dès ${euro(r[1])}</td><td class="p">dès ${euro(r[2])}</td></tr>`).join("");
+}
+function renderFleet(id, items, icon){
+  $(id).innerHTML = items.map(v => `<article class="card p-5"><div class="tile">${icon}</div><h3 class="text-lg font-bold mt-3">${v[0]}</h3><p class="muted text-sm mt-1">${v[1]}</p></article>`).join("");
+}
+
+/* ============ 5. TUNNEL DE RÉSERVATION (3 étapes) ============ */
+const WZ_STEPS = ['Point de départ','Arrivée','Passagers, véhicule et récapitulatif'];
+const WZ_FROM = [
+  {v:'Lyon Vaise',l:'Vaise',i:'pin'},
+  {v:'Lyon Presqu’île',l:'Presqu’île',i:'pin'},
+  {v:'Lyon Part-Dieu',l:'Part-Dieu',i:'pin'},
+  {v:'Lyon Confluence',l:'Confluence',i:'pin'},
+  {v:'Villeurbanne',l:'Villeurbanne',i:'pin'}
+];
+const WZ_TO = [
+  {v:'Gare Lyon Part-Dieu',l:'Gare Part-Dieu',i:'train'},
+  {v:'Gare Lyon Perrache',l:'Gare de Perrache',i:'train'},
+  {v:'Aéroport Lyon Saint-Exupéry',l:'Aéroport Saint-Exupéry',i:'plane'}
+];
+const WZ_VEH = {
+  Berline:{i:'car',t:'Berline',d:'Berline Confort (1 à 3 passagers)'},
+  Van:{i:'bus',t:'Van',d:'Van Spacieux (Idéal groupes & bagages)'}
+};
+
+/* ============ CALCUL DE DISTANCE ============
+   1) Points connus : coordonnées intégrées (instantané, hors ligne).
+   2) Autres adresses : géocodage OpenStreetMap (Nominatim).
+   3) Distance routière : OSRM (réseau routier réel).
+   4) Si le réseau est indisponible : estimation à vol d’oiseau x 1,3, signalée comme telle. */
+const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[’‘]/g,"'").replace(/\s+/g,' ').trim();
+const GEO = [
+  [['part-dieu'],45.7605,4.8590],[['perrache'],45.7490,4.8260],[['saint-exupery'],45.7256,5.0811],
+  [['presqu\'ile','lyon centre','bellecour'],45.7578,4.8320],[['vaise'],45.7800,4.8040],[['confluence'],45.7410,4.8180],
+  [['villeurbanne'],45.7667,4.8800],[['vienne'],45.5250,4.8740],[['villefranche'],45.9900,4.7200],
+  [['saint-etienne'],45.4397,4.3872],[['grenoble'],45.1885,5.7245],[['annecy'],45.8992,6.1294],[['geneve'],46.2044,6.1432],
+  [['les 2 alpes','deux alpes'],45.0120,6.1230],[['alpe d\'huez'],45.0900,6.0690],[['les menuires'],45.3250,6.5370],
+  [['val thorens'],45.2980,6.5800],[['courchevel'],45.4150,6.6340],[['meribel'],45.3970,6.5650],[['tignes'],45.4690,6.9070],
+  [['val d\'isere'],45.4480,6.9800],[['la plagne'],45.5070,6.6770],[['les arcs'],45.5720,6.8280],[['chamonix'],45.9237,6.8694]
+];
+function localCoords(txt){
+  const n = norm(txt); let best = null, len = 0;
+  if(n === 'lyon') return {lat:45.7578, lon:4.8320};
+  for(const [al,lat,lon] of GEO) for(const a of al){
+    if(n.includes(a) && a.length > len && (!/\d/.test(n) || n === a)){ best = {lat,lon}; len = a.length; }
+  }
+  return best;
+}
+async function fetchJSON(url, ms = 7000){
+  const c = new AbortController(), t = setTimeout(() => c.abort(), ms);
+  try{ const r = await fetch(url, {signal:c.signal}); if(!r.ok) throw new Error(r.status); return await r.json(); }
+  finally{ clearTimeout(t); }
+}
+async function geocode(q){
+  const loc = localCoords(q); if(loc) return loc;
+  try{
+    const j = await fetchJSON('https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=fr,ch,it&viewbox=4.3,46.2,5.6,45.4&q=' + encodeURIComponent(q));
+    if(j && j[0]) return {lat:+j[0].lat, lon:+j[0].lon};
+  }catch(e){}
+  return null;
+}
+function haversine(a,b){
+  const R = 6371, r = x => x * Math.PI / 180, dLa = r(b.lat - a.lat), dLo = r(b.lon - a.lon);
+  const h = Math.sin(dLa/2)**2 + Math.cos(r(a.lat)) * Math.cos(r(b.lat)) * Math.sin(dLo/2)**2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+/* Durée réaliste : OSRM ignore le trafic, les feux et les ponts. On applique une vitesse moyenne
+   basse en ville (≈ 14 km/h en hypercentre, + marge de prise en charge), moins basse en périphérie. */
+function etaMin(km, osrmMin){
+  const f = km <= 5 ? km / 14 * 60 + 4
+          : km <= 15 ? km / 22 * 60 + 5
+          : km <= 60 ? km / 45 * 60 + 5
+          : km / 75 * 60 + 10;
+  const base = osrmMin ? osrmMin * (km <= 60 ? 1.25 : 1.1) : 0;
+  return Math.max(2, Math.round(Math.max(f, base)));
+}
+async function getRoute(fromTxt, toTxt){
+  const [a, b] = await Promise.all([geocode(fromTxt), geocode(toTxt)]);
+  if(!a || !b) return null;
+  try{
+    const j = await fetchJSON(`https://router.project-osrm.org/route/v1/driving/${a.lon},${a.lat};${b.lon},${b.lat}?overview=false`);
+    const r = j && j.routes && j.routes[0];
+    if(r){ const km = r.distance/1000; return {km, min:etaMin(km, r.duration/60), src:'osrm'}; }
+  }catch(e){}
+  const km = haversine(a, b) * 1.3;
+  return {km, min:etaMin(km), src:'estim'};
+}
+const fmtKm = k => k < 10 ? k.toFixed(1).replace('.', ',') : String(Math.round(k));
+const fmtMin = m => m < 60 ? `${m} min` : `${Math.floor(m/60)} h ${String(m%60).padStart(2,'0')}`;
+
+function initWizard(){
+  const form=$('#trip'), panel=$('#wz-panel'), next=$('#wz-next'), back=$('#wz-back'),
+        err=$('#wz-err'), count=$('#wz-count'), label=$('#wz-label');
+  const N=WZ_STEPS.length, LAST=N-1;
+  $('#wz-bars').innerHTML=WZ_STEPS.map(()=>'<li class="wz-bar"></li>').join('');
+  const bars=$$('.wz-bar');
+  const d={from:'',to:'',pax:1,bags:0,veh:'Berline',vehTouched:false,route:null,routeKey:''};
+  let rtTimer;
+  let step=0;
+  $('#places').innerHTML=PLACES.map(p=>`<option value="${esc(p)}">`).join('');
+
+  const bagTxt=()=>d.bags===0?'Aucun':`${d.bags} valise${d.bags>1?'s':''}`;
+  const skiDest=()=>/ski|alpe|menuires|thorens|courchevel|m[ée]ribel|tignes|is[èe]re|arcs|plagne|chamonix|2 alpes|deux alpes/.test(d.to.toLowerCase());
+  const wantVan=()=>d.pax>=4||d.bags>=4||skiDest();
+  /* Message WhatsApp : une ligne structurée */
+  const distMsg=()=>d.route&&d.route.state==='ok'?`${fmtKm(d.route.km)} km (environ ${fmtMin(d.route.min)}${d.route.src==='estim'?', estimation':''})`:'à confirmer';
+  const buildMsg=()=>`Bonjour, je souhaite réserver une course - Départ : ${d.from.trim()} | Arrivée : ${d.to.trim()} | Distance estimée : ${distMsg()} | Passagers : ${d.pax} | Bagages : ${bagTxt()} | Véhicule : ${WZ_VEH[d.veh].t}`;
+
+  const chips=(list,target,other)=>list.filter(q=>q.v!==other.trim()).map(q=>`<button type="button" class="chip chip-lg" data-fill="${esc(q.v)}" data-target="${target}" aria-pressed="${d[target].trim()===q.v}">${ico(q.i)}${q.l}</button>`).join('');
+  const row=(k,v,go)=>`<div class="sum-row"><dt>${k}</dt><dd>${esc(v)}</dd><button type="button" class="edit" data-go="${go}">Modifier</button></div>`;
+  const rowFix=(k,v)=>`<div class="sum-row"><dt>${k}</dt><dd>${esc(v)}</dd><span></span></div>`;
+  const sumHTML=()=>`<dl class="m-0">${row('Départ',d.from.trim()||'À renseigner',0)}${row('Arrivée',d.to.trim()||'À renseigner',1)}<div class="sum-row"><dt>Distance</dt><dd class="rt-txt">${routeTxt()}</dd><span></span></div>${rowFix('Passagers',String(d.pax))}${rowFix('Bagages',bagTxt())}${rowFix('Véhicule',WZ_VEH[d.veh].t)}</dl>`;
+  const counter=(id,name,val,sub)=>`<div class="stepper-row"><div><span class="text-sm font-semibold">${name}</span><small class="muted block">${sub}</small></div>
+      <div class="flex items-center gap-4"><button type="button" class="pax-btn" data-cnt="${id}" data-d="-1" aria-label="${name} : un de moins">−</button><output id="wz-${id}" class="text-2xl font-bold" style="min-width:2rem;text-align:center" aria-live="polite">${val}</output><button type="button" class="pax-btn" data-cnt="${id}" data-d="1" aria-label="${name} : un de plus">+</button></div></div>`;
+  const recTxt=()=>skiDest()?'Pour une station de ski, un van est conseillé (skis et bagages).'
+    :(d.pax>=4||d.bags>=4)?`Pour ${d.pax} passager${d.pax>1?'s':''} et ${d.bags} valise${d.bags>1?'s':''}, nous vous conseillons un van.`
+    :'Une berline convient très bien jusqu’à 3 passagers.';
+
+  const views=[
+    () => `
+      <label class="block"><span class="text-sm font-semibold">D’où partez-vous ?</span>
+        <input class="field mt-1" id="wz-from" list="places" autocomplete="off" placeholder="Adresse, quartier, hôtel…" value="${esc(d.from)}"></label>
+      <p class="text-sm muted mt-4 mb-2">Lyon et sa métropole</p>
+      <div class="flex flex-wrap gap-2" role="group" aria-label="Suggestions de départ">${chips(WZ_FROM,'from','')}</div>`,
+    () => `
+      <label class="block"><span class="text-sm font-semibold">Où souhaitez-vous arriver ?</span>
+        <input class="field mt-1" id="wz-to" list="places" autocomplete="off" placeholder="Adresse, ville, aéroport, station…" value="${esc(d.to)}"></label>
+      <p class="text-sm muted mt-4 mb-2">Destinations fréquentes</p>
+      <div class="flex flex-wrap gap-2" role="group" aria-label="Suggestions de destination">${chips(WZ_TO,'to',d.from)}</div>
+      <div class="rt mt-4" aria-live="polite">${ico('route')}<span><span class="muted text-xs block">Distance et durée estimées</span><strong class="rt-txt">${routeTxt()}</strong></span></div>`,
+    () => `
+      ${counter('pax','Passagers',d.pax,'Nombre de personnes à transporter')}
+      ${counter('bags','Bagages',d.bags,'Valises (hors bagage à main)')}
+      <p class="text-sm font-semibold mt-5 mb-2">Type de véhicule</p>
+      <div class="grid gap-2" role="radiogroup" aria-label="Type de véhicule">${Object.entries(WZ_VEH).map(([k,v])=>`<button type="button" role="radio" class="opt" data-veh="${k}" aria-checked="${d.veh===k}"><span style="color:var(--sun)">${ico(v.i,'big')}</span><span>${v.t}<small class="muted block font-normal">${v.d}</small></span></button>`).join('')}</div>
+      <p class="muted text-sm mt-2" id="wz-rec">${recTxt()}</p>
+      <p class="text-sm font-semibold mt-6 mb-2">Récapitulatif de votre course</p>
+      <div class="wz-sum" id="wz-sum">${sumHTML()}</div>
+      <details class="mt-3"><summary class="msg-sum">${ico('whatsapp')}Voir le message qui sera envoyé</summary><pre class="msg" id="wz-msg">${esc(buildMsg())}</pre></details>
+      <p class="muted text-xs mt-3">Le prix exact vous est confirmé sur WhatsApp avant la course. Aucun paiement maintenant.</p>
+      <p class="mt-2 text-sm"><a class="soft-link muted inline-flex items-center gap-2" href="tel:${CONFIG.phone}">${ico('phone')}Je préfère appeler</a></p>`
+  ];
+
+  const syncChips=()=>$$('[data-fill]',panel).forEach(c=>c.setAttribute('aria-pressed',d[c.dataset.target].trim()===c.dataset.fill));
+  const syncVeh=()=>{
+    if(!d.vehTouched) d.veh=wantVan()?'Van':'Berline';
+    $$('[data-veh]',panel).forEach(x=>x.setAttribute('aria-checked',x.dataset.veh===d.veh));
+    const r=$('#wz-rec'); if(r) r.textContent=recTxt();
+    const a=$('#wz-sum'), m=$('#wz-msg'); if(a) a.innerHTML=sumHTML(); if(m) m.textContent=buildMsg();
+  };
+
+  const routeTxt=()=>{
+    const r=d.route;
+    if(!r) return 'Renseignez le départ et l’arrivée';
+    if(r.state==='loading') return 'Calcul en cours…';
+    if(r.state==='na') return 'À confirmer sur WhatsApp';
+    return `${fmtKm(r.km)} km · environ ${fmtMin(r.min)}${r.src==='estim'?' (estimation)':''}`;
+  };
+  const updateLive=()=>{
+    $$('.rt-txt',panel).forEach(el=>el.textContent=routeTxt());
+    if(step===LAST){ const a=$('#wz-sum'), m=$('#wz-msg'); if(a) a.innerHTML=sumHTML(); if(m) m.textContent=buildMsg(); }
+  };
+  function scheduleRoute(){
+    clearTimeout(rtTimer);
+    const f=d.from.trim(), t=d.to.trim();
+    if(!f||!t||norm(f)===norm(t)){ d.route=null; d.routeKey=''; updateLive(); return; }
+    const key=norm(f)+'>'+norm(t);
+    if(d.routeKey===key && d.route && d.route.state!=='loading'){ updateLive(); return; }
+    d.routeKey=key; d.route={state:'loading'}; updateLive();
+    rtTimer=setTimeout(async()=>{
+      let r=null; try{ r=await getRoute(f,t); }catch(e){}
+      if(d.routeKey!==key) return;
+      d.route=r?{state:'ok',km:r.km,min:r.min,src:r.src}:{state:'na'}; updateLive();
+    },450);
+  }
+
+  function render(dir){
+    count.textContent=`Étape ${step+1} sur ${N}`; label.textContent=WZ_STEPS[step];
+    bars.forEach((b,i)=>{ b.classList.toggle('done',i<step); b.classList.toggle('cur',i===step); });
+    panel.className=''; panel.innerHTML=views[step](); void panel.offsetWidth;
+    panel.className='tabpanel'+(dir>0?' tp-next':dir<0?' tp-prev':'');
+    back.style.visibility=step?'visible':'hidden';
+    const last=step===LAST;
+    next.className='btn flex-1 '+(last?'btn-wa':'btn-call');
+    next.innerHTML=last?ico('whatsapp')+'Envoyer sur WhatsApp':'Continuer'+ico('arrow-right');
+    err.hidden=true;
+  }
+  function go(n,user){
+    const dir=n>step?1:n<step?-1:0; step=n;
+    if(n===2 && !d.vehTouched) d.veh=wantVan()?'Van':'Berline';
+    render(dir); if(step>=1) scheduleRoute();
+    if(user){
+      const id=step===0?'#wz-from':step===1?'#wz-to':null;
+      if(id && matchMedia('(pointer:fine)').matches) $(id).focus({preventScroll:true});
+      else { label.tabIndex=-1; label.focus({preventScroll:true}); }
+    }
+  }
+  function validate(){
+    if(step===0 && !d.from.trim()) return ['Indiquez votre point de départ.','#wz-from'];
+    if(step===1){
+      if(!d.to.trim()) return ['Indiquez votre destination.','#wz-to'];
+      if(d.to.trim().toLowerCase()===d.from.trim().toLowerCase()) return ['Le départ et la destination sont identiques.','#wz-to'];
+    }
+    return null;
+  }
+  panel.addEventListener('input',e=>{
+    const t=e.target;
+    if(t.id==='wz-from'){ d.from=t.value; syncChips(); scheduleRoute(); }
+    else if(t.id==='wz-to'){ d.to=t.value; syncChips(); scheduleRoute(); }
+  });
+  panel.addEventListener('click',e=>{
+    const b=e.target.closest('button'); if(!b) return;
+    if(b.dataset.fill){ d[b.dataset.target]=b.dataset.fill; $('#wz-'+b.dataset.target).value=b.dataset.fill; syncChips(); err.hidden=true; scheduleRoute(); }
+    else if(b.dataset.cnt){
+      const k=b.dataset.cnt, lim=k==='pax'?[1,7]:[0,10];
+      d[k]=Math.min(lim[1],Math.max(lim[0],d[k]+(+b.dataset.d))); $('#wz-'+k).textContent=d[k]; syncVeh();
+    }
+    else if(b.dataset.veh){ d.veh=b.dataset.veh; d.vehTouched=true; syncVeh(); }
+    else if(b.dataset.go){ go(+b.dataset.go,true); }
+  });
+  next.addEventListener('click',()=>{
+    const v=validate();
+    if(v){ err.textContent=v[0]; err.hidden=false; if(v[1]) $(v[1]).focus(); return; }
+    if(step<LAST) go(step+1,true); else window.open(waLink(buildMsg()),'_blank','noopener');
+  });
+  back.addEventListener('click',()=>go(step-1,true));
+  form.addEventListener('keydown',e=>{ if(e.key==='Enter' && e.target.tagName==='INPUT'){ e.preventDefault(); next.click(); } });
+  form.addEventListener('submit',e=>e.preventDefault());
+  render(0);
+}
+
+/* ============ 6. LIENS D’ACTION ============ */
+function wireActions(){
+  $$("[data-wa]").forEach(a => a.href = waLink(a.dataset.wa || CONFIG.defaultMsg));
+  $$("[data-call]").forEach(a => a.href = `tel:${CONFIG.phone}`);
+  $$("[data-phone-text]").forEach(p => p.textContent = CONFIG.phone.replace(/(\+33)(\d)(\d{2})(\d{2})(\d{2})(\d{2})/, "$1 $2 $3 $4 $5 $6"));
+}
+
+/* ============ 7. ROUTEUR PAR ANCRE ============ */
+const ROUTES = ["accueil","tarifs","flotte","contact"];
+function currentPage(){ return ROUTES.includes(location.hash.slice(1)) ? location.hash.slice(1) : "accueil"; }
+function route(){
+  const name = currentPage(), prev = route.cur, changed = prev !== name;
+  if(changed){
+    const dir = prev === undefined ? 0 : Math.sign(ROUTES.indexOf(name) - ROUTES.indexOf(prev));
+    armReveal(name);                       // les blocs de la page rejouent leur apparition à chaque visite
+    $$(".page").forEach(p => {
+      const on = p.dataset.page === name;
+      p.classList.toggle("on", on); p.classList.toggle("dn", on && dir > 0); p.classList.toggle("dp", on && dir < 0);
+    });
+    route.cur = name;
+    window.scrollTo({top:0, behavior:"instant"});
+  }
+  $$("[data-nav]").forEach(a => { if(a.dataset.nav === name) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
+}
+
+/* ============ 7b. INTERACTIONS ============ */
+function initFaq(){
+  const box = $("#faq");
+  box.innerHTML = FAQ.map((f,i) => `<div class="faq-item"><h3><button type="button" class="faq-q" id="fq${i}" aria-expanded="false" aria-controls="fa${i}"><span>${f[0]}</span><span class="chev" aria-hidden="true">+</span></button></h3><div class="faq-a" id="fa${i}" role="region" aria-labelledby="fq${i}"><div><p>${f[1]}</p></div></div></div>`).join("");
+  box.addEventListener("click", e => {
+    const b = e.target.closest(".faq-q"); if(!b) return;
+    const open = b.getAttribute("aria-expanded") !== "true";
+    $$(".faq-q", box).forEach(x => { const on = x === b && open; x.setAttribute("aria-expanded", on); x.parentElement.nextElementSibling.classList.toggle("open", on); });
+  });
+}
+
+function initFleetTabs(){
+  const bar = $("#fleet-tabs"), panel = $("#fleet-panel"); let cur = 0;
+  bar.innerHTML = `<span class="tab-ind" aria-hidden="true"></span>` + FLEET_TABS.map((t,i) => `<button type="button" role="tab" class="tab" id="tab${i}" aria-controls="fleet-panel" aria-selected="${i===0}" tabindex="${i?-1:0}">${ico(t.icon)}<span>${t.label}</span></button>`).join("");
+  const ind = $(".tab-ind", bar), tabs = $$(".tab", bar);
+  const move = () => { const b = tabs[cur]; ind.style.width = b.offsetWidth + "px"; ind.style.transform = `translateX(${b.offsetLeft}px)`; };
+  const show = (i, focus) => {
+    const prev = cur; cur = i; const t = FLEET_TABS[i];
+    tabs.forEach((b,j) => { b.setAttribute("aria-selected", j === i); b.tabIndex = j === i ? 0 : -1; });
+    panel.setAttribute("aria-labelledby", "tab" + i);
+    const card = (v,i) => t.media
+      ? `<article class="card cardfill has-media"><div class="media media-43" data-slot="fleet-${t.key}-${i}" data-alt="${esc(v[0])}" role="img" aria-label="Emplacement réservé à un visuel : ${esc(v[0])}">${ico(t.icon)}<span class="slot-label">Visuel à venir</span></div><div class="p-5 flex-1">${v[2]?`<span class="badge">${ico(v[2]==='Électrique'?'bolt':'leaf')}${v[2]}</span>`:''}<h3 class="text-lg font-bold mt-2">${v[0]}</h3><p class="muted text-sm mt-1">${v[1]}</p></div></article>`
+      : `<article class="card cardfill p-5"><div class="tile">${ico(v[2])}</div><h3 class="text-lg font-bold mt-4">${v[0]}</h3><p class="muted text-sm mt-1">${v[1]}</p></article>`;
+    panel.innerHTML = `<p class="muted">${t.sub}</p><div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 eq">${t.items.map(card).join("")}</div>`;
+    hydrateIcons(panel); applyMedia(panel);
+    const dir = i > prev ? " tp-next" : i < prev ? " tp-prev" : "";
+    panel.className = "mt-6"; void panel.offsetWidth; panel.className = "mt-6 tabpanel" + dir;
+    move(); bar.scrollTo({left: tabs[i].offsetLeft - (bar.clientWidth - tabs[i].offsetWidth) / 2, behavior: "smooth"}); if(focus) tabs[i].focus();
+  };
+  bar.addEventListener("click", e => { const b = e.target.closest(".tab"); if(b) show(tabs.indexOf(b)); });
+  bar.addEventListener("keydown", e => {
+    const d = {ArrowRight:1, ArrowLeft:-1}[e.key]; if(!d) return;
+    e.preventDefault(); show((cur + d + tabs.length) % tabs.length, true);
+  });
+  // Swipe tactile : même moteur que les pages ; aux extrémités, le geste passe à la page voisine
+  addSwipe(panel, d => { const n = cur + d; if(n >= 0 && n < tabs.length){ show(n); return true; } return false; }, {fallback: swipePage});
+  new ResizeObserver(move).observe(bar);   // recale l’indicateur quand la page devient visible
+  show(0);
+}
+
+function initCalc(){
+  const form = $("#calc"), cat = $("#calc-cat"), dest = $("#calc-dest"), out = $("#calc-price"); let shown = 0, raf;
+  cat.innerHTML = Object.entries(CALC).map(([k,c],i) => `<div class="relative flex"><input type="radio" name="cc" id="cc-${k}" value="${k}" ${i?"":"checked"}><label for="cc-${k}">${ico(c.icon)}${c.label}</label></div>`).join("");
+  const fill = () => { const c = CALC[$("input[name=cc]:checked", form).value]; $("#calc-dest-label").textContent = c.field; dest.innerHTML = c.rows.map((r,i) => `<option value="${i}">${r[0]}</option>`).join(""); };
+  const tween = to => {
+    cancelAnimationFrame(raf);
+    const from = shown, t0 = performance.now(), dur = matchMedia("(prefers-reduced-motion:reduce)").matches ? 0 : 350;
+    const step = t => { const k = dur ? Math.min(1, (t - t0) / dur) : 1; shown = Math.round(from + (to - from) * k); out.textContent = shown; if(k < 1) raf = requestAnimationFrame(step); };
+    raf = requestAnimationFrame(step);
+  };
+  const update = () => {
+    const c = CALC[$("input[name=cc]:checked", form).value], r = c.rows[dest.value || 0];
+    const veh = $("input[name=cv]:checked", form).value, price = veh === "Van" ? r[2] : r[1];
+    tween(price);
+    $("#calc-label").textContent = `${c.label} · ${r[0]} · ${veh}`;
+    $("#calc-wa").href = waLink(`Bonjour, je souhaite réserver : ${c.label} – ${r[0]} en ${veh} (à partir de ${price} €).\nDate, heure et adresses : `);
+  };
+  form.addEventListener("change", e => { if(e.target.name === "cc") fill(); update(); });
+  fill(); update();
+}
+
+async function copyText(t){
+  try{ await navigator.clipboard.writeText(t); return true; }catch(e){}
+  const ta = document.createElement("textarea"); ta.value = t; ta.style.cssText = "position:fixed;opacity:0";
+  document.body.appendChild(ta); ta.select(); let ok = false;
+  try{ ok = document.execCommand("copy"); }catch(e){}
+  ta.remove(); return ok;
+}
+function toast(msg){ const el = $("#toast"); el.textContent = msg; el.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove("show"), 1800); }
+function initCopy(){
+  $$("[data-email-text]").forEach(e => e.textContent = CONFIG.email);
+  $$("[data-copy]").forEach(b => b.addEventListener("click", async () => {
+    const ok = await copyText(CONFIG[b.dataset.copy]); const l = $(".cl", b);
+    toast(ok ? "Copié !" : "Copie impossible : sélectionnez le texte");
+    if(!ok) return;
+    b.classList.add("done"); l.innerHTML = ico("check") + " Copié !";
+    setTimeout(() => { b.classList.remove("done"); l.innerHTML = ico("copy") + " Copier"; }, 1800);
+  }));
+}
+
+/* ============ 7c. MOTEUR D’ANIMATION UNIQUE (scroll + swipe) ============ */
+const REVEAL = new Map();  // page -> éléments à animer
+let revealIO;
+function initReveal(){
+  if(!('IntersectionObserver' in window)) return;
+  revealIO = new IntersectionObserver(entries => {
+    let k = 0;                                   // cascade entre les blocs qui apparaissent ensemble
+    entries.forEach(e => {
+      if(!e.isIntersecting) return;
+      const el = e.target; revealIO.unobserve(el);
+      el.style.transitionDelay = (Math.min(k++, 4) * 90) + 'ms';
+      el.classList.add('in');
+      const done = ev => { if(ev.target !== el) return; el.removeEventListener('transitionend', done); el.classList.remove('reveal','in'); el.style.transitionDelay = ''; };
+      el.addEventListener('transitionend', done);
+    });
+  }, {threshold:.12, rootMargin:'0px 0px -5% 0px'});
+  $$('.page h1, .page h2, .page .card, .page .faq-item, .page .tabs, .page .media-wide, .page > div > p')
+    .filter(el => !el.closest('.hero-bg, #fleet-panel') && !(el.matches('h2') && el.closest('.card')))
+    .forEach(el => { const n = el.closest('.page').dataset.page; if(!REVEAL.has(n)) REVEAL.set(n, []); REVEAL.get(n).push(el); });
+  REVEAL.forEach((_, n) => armReveal(n));
+}
+function armReveal(name){
+  if(!revealIO) return;
+  (REVEAL.get(name) || []).forEach(el => {
+    revealIO.unobserve(el); el.style.transitionDelay = '';
+    el.classList.remove('in'); el.classList.add('reveal'); revealIO.observe(el);
+  });
+}
+
+/* Swipe : mêmes seuils et même sens pour les onglets de la flotte et pour les pages du site */
+function hScrollable(node, root){
+  for(let n = node; n && n !== root; n = n.parentElement){
+    const o = getComputedStyle(n).overflowX;
+    if((o === 'auto' || o === 'scroll') && n.scrollWidth > n.clientWidth + 1) return true;
+  }
+  return false;
+}
+function addSwipe(el, onSwipe, opts = {}){
+  let sx = 0, sy = 0, t0 = 0, ok = false;
+  el.addEventListener('touchstart', e => {
+    ok = e.touches.length === 1 && !(opts.ignore && e.target.closest(opts.ignore)) && !hScrollable(e.target, el);
+    if(!ok) return;
+    sx = e.touches[0].clientX; sy = e.touches[0].clientY; t0 = Date.now();
+  }, {passive:true});
+  el.addEventListener('touchend', e => {
+    if(!ok) return; ok = false;
+    const p = e.changedTouches[0], dx = p.clientX - sx, dy = p.clientY - sy;
+    if(Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 1.5 || Date.now() - t0 > 800) return;
+    const dir = dx < 0 ? 1 : -1;                 // gauche = suivant, droite = précédent
+    if(onSwipe(dir) === false && opts.fallback) opts.fallback(dir);
+  }, {passive:true});
+  el.addEventListener('touchcancel', () => { ok = false; }, {passive:true});
+}
+function swipePage(dir){
+  const n = ROUTES.indexOf(currentPage()) + dir;
+  if(n >= 0 && n < ROUTES.length) location.hash = ROUTES[n];
+}
+function initPageSwipe(){
+  addSwipe($('main'), swipePage, {ignore:'#trip,#fleet-panel,input,select,textarea,[data-noswipe]'});
+}
+
+
+/* ============ POLITIQUE DE CONFIDENTIALITÉ ============ */
+function initPrivacy(){
+  $('#pro-mail').href = 'mailto:' + CONFIG.email;
+  const dlg = $('#privacy'); if(!dlg || !dlg.showModal) { $('#open-privacy').remove(); return; }
+  $('#open-privacy').addEventListener('click', () => dlg.showModal());
+  ['#close-privacy','#close-privacy-2'].forEach(q => $(q).addEventListener('click', () => dlg.close()));
+  dlg.addEventListener('click', e => { if(e.target === dlg) dlg.close(); });
+}
+
+
+/* ============ NOTRE FLOTTE : CARROUSELS PAR CATÉGORIE ============
+   Silhouettes génériques (sans marque ni modèle). Pour afficher de vraies photos, renseignez
+   le tableau MEDIA : 'home-berline-0' … 'home-van-2'. */
+const SIL = {
+  sedan:`<svg class="sil" viewBox="0 0 240 100" aria-hidden="true" focusable="false"><path d="M10 72 L20 56 Q30 48 60 46 L88 28 Q100 24 125 24 L160 26 Q178 30 190 46 L214 52 Q228 56 230 68 V74 Q230 78 224 78 H206 M174 78 H70 M38 78 H16 Q10 78 10 72" fill="rgba(255,255,255,.06)" stroke="rgba(236,236,240,.55)" stroke-width="2" stroke-linejoin="round"/><path d="M70 46 L92 31 Q100 28 122 28 L128 46 Z M136 46 L134 28 L158 30 Q172 34 182 46 Z" fill="rgba(255,255,255,.08)" stroke="rgba(236,236,240,.35)" stroke-width="1.5"/><circle cx="54" cy="78" r="14" fill="#1c1b1a" stroke="rgba(236,236,240,.6)" stroke-width="2"/><circle cx="190" cy="78" r="14" fill="#1c1b1a" stroke="rgba(236,236,240,.6)" stroke-width="2"/></svg>`,
+  van:`<svg class="sil" viewBox="0 0 240 100" aria-hidden="true" focusable="false"><path d="M8 76 V34 Q8 24 18 24 H150 Q162 24 170 36 L194 56 Q206 58 212 64 Q218 68 218 78 Q218 80 214 80 H196 M162 80 H70 M38 80 H12 Q8 80 8 76" fill="rgba(255,255,255,.06)" stroke="rgba(236,236,240,.55)" stroke-width="2" stroke-linejoin="round"/><path d="M20 34 H60 V52 H20 Z M68 34 H108 V52 H68 Z M116 34 H150 L166 52 H116 Z" fill="rgba(255,255,255,.08)" stroke="rgba(236,236,240,.35)" stroke-width="1.5" stroke-linejoin="round"/><circle cx="54" cy="80" r="14" fill="#1c1b1a" stroke="rgba(236,236,240,.6)" stroke-width="2"/><circle cx="180" cy="80" r="14" fill="#1c1b1a" stroke="rgba(236,236,240,.6)" stroke-width="2"/></svg>`
+};
+const FLEET_HOME = [
+  {key:'berline',t:'Berlines',d:'Berline Confort (1 à 3 passagers)',sil:'sedan',slides:[['Extérieur',''],['Habitacle confortable','users'],['Coffre pour vos bagages','briefcase']]},
+  {key:'van',t:'Vans',d:'Van Spacieux (Idéal groupes & bagages)',sil:'van',slides:[['Van haut de gamme, grand confort',''],['Van confort, espace passagers','users'],['Grand volume pour bagages et skis','briefcase']]}
+];
+function renderFleetHome(){
+  $('#fleet-home').innerHTML = FLEET_HOME.map(c => `
+    <section class="fleet-cat" aria-label="${c.t}">
+      <div class="flex items-baseline justify-between gap-x-4 gap-y-1 flex-wrap"><h3 class="text-2xl font-bold">${c.t}</h3><p class="muted">${c.d}</p></div>
+      <div class="slider mt-4" role="region" aria-roledescription="carrousel" aria-label="Photos : ${c.t}" tabindex="0">
+        ${c.slides.map((sl,i) => `<figure class="slide"><div class="media" data-slot="home-${c.key}-${i}" data-alt="${c.t} : ${sl[0]}" role="img" aria-label="Illustration : ${sl[0]}">${i===0?SIL[c.sil]:ico(sl[1])}</div><figcaption>${sl[0]}</figcaption></figure>`).join('')}
+      </div>
+      <div class="slider-ctl">
+        <div class="dots" role="group" aria-label="Choisir une image">${c.slides.map((sl,i)=>`<button type="button" class="dot" data-dot="${i}" aria-label="Image ${i+1} sur ${c.slides.length}"></button>`).join('')}</div>
+        <div class="flex gap-2"><button type="button" class="pax-btn" data-arrow="-1" aria-label="Image précédente">${ico('arrow-left')}</button><button type="button" class="pax-btn" data-arrow="1" aria-label="Image suivante">${ico('arrow-right')}</button></div>
+      </div>
+    </section>`).join('');
+  applyMedia($('#fleet-home'));
+  $$('.fleet-cat').forEach(cat => {
+    const sl = $('.slider', cat), ctl = $('.slider-ctl', cat), dots = $$('.dot', cat), [prev, nextB] = $$('[data-arrow]', cat);
+    const step = () => { const k = sl.children; return k.length > 1 ? k[1].offsetLeft - k[0].offsetLeft : sl.clientWidth; };
+    const smooth = () => matchMedia('(prefers-reduced-motion:reduce)').matches ? 'auto' : 'smooth';
+    let raf;
+    const upd = () => {
+      const scrollable = sl.scrollWidth > sl.clientWidth + 4;
+      ctl.hidden = !scrollable;
+      const i = Math.min(dots.length - 1, Math.max(0, Math.round(sl.scrollLeft / (step() || 1))));
+      dots.forEach((d, j) => d.setAttribute('aria-current', j === i));
+      prev.disabled = sl.scrollLeft <= 2;
+      nextB.disabled = sl.scrollLeft + sl.clientWidth >= sl.scrollWidth - 4;
+    };
+    sl.addEventListener('scroll', () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(upd); }, {passive:true});
+    new ResizeObserver(upd).observe(sl);
+    ctl.addEventListener('click', e => {
+      const b = e.target.closest('button'); if(!b) return;
+      if(b.dataset.arrow) sl.scrollBy({left: step() * +b.dataset.arrow, behavior: smooth()});
+      else if(b.dataset.dot) sl.scrollTo({left: step() * +b.dataset.dot, behavior: smooth()});
+    });
+    sl.addEventListener('keydown', e => { const d = {ArrowRight:1, ArrowLeft:-1}[e.key]; if(d){ e.preventDefault(); sl.scrollBy({left: step() * d, behavior: smooth()}); } });
+    upd();
+  });
+}
+
+/* ============ 8. DÉMARRAGE ============ */
+renderServices(); renderTrust(); renderReviews(); renderFleetHome();
+renderTable("tbl-trips", TRIPS); renderTable("tbl-ski", SKI); renderTable("tbl-mad", MAD);
+initFleetTabs(); initFaq(); initCalc(); initCopy(); initPrivacy(); initReveal(); initPageSwipe(); hydrateIcons(); applyMedia();
+document.addEventListener('touchstart', () => {}, {passive:true});   // active l’effet de pression sur iOS
+initWizard(); wireActions();
+$("#yr").textContent = new Date().getFullYear();
+addEventListener("hashchange", route); route();
+</script>
+</body>
+</html>
+
+</body></html>
